@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	export let greeting, src;
 </script>
 
 <style>
@@ -8,4 +8,8 @@
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>{greeting}</h1>
+<img src={src} alt="logo" style="width:300px;"/>
+<div >
+	<a href="https://svelte.dev/tutorial/basics" target="_blank">Getting Started with SvelteJS!</a>
+</div>
